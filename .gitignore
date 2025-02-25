@@ -6,3 +6,6 @@
 
 #Ignore config files
 build
+
+#Ignore source files
+Pixelify_Sans

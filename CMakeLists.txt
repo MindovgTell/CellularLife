@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(SFML 2.6.1 COMPONENTS 
     system window graphics network audio REQUIRED)
 
-add_executable(gravity main.cpp Simulation.cpp Cell.cpp Grid.cpp)
+add_executable(gravity main.cpp Src/Simulation.cpp Src/Cell.cpp Src/Grid.cpp)
 
 
 target_include_directories(gravity PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}")
